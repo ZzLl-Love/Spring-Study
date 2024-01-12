@@ -1,0 +1,8 @@
+
+m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÎÓ”„8’™ùñº1
+‚
+java:S1488D"`Immediately return this expression instead of assigning it to the temporary variable "instance".(š†€‚ÿÿÿÿÿ8Ğ½üñº1
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ô£Û8“™ùñº1
+u	java:S116"YRename this field "target_vehicle" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¹‹¢8™ùñº1
+L	java:S1060"+Replace this use of System.out by a logger.(œÔØ‘úÿÿÿÿ8¤™ùñº1
+G	java:S1062"+Replace this use of System.out by a logger.(çÃÜ8¥™ùñº1

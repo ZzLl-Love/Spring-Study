@@ -1,0 +1,5 @@
+包 beaninstance  学习和以后复习Sping实例化bean的三种方式
+- 构造器(常用)
+- 静态工厂方法
+- 实例工厂方法
+- 实现 FactoryBean（常用）

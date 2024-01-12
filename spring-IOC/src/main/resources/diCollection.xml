@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="collectionsDemo" class="cn.distudy.diCollection.domain.CollectionsDemo">
+        <!--注入list-->
+        <property name="list">
+            <list>
+                <value>1</value>
+                <value>2</value>
+                <value>3</value>
+                <value>4</value>
+            </list>
+        </property>
+
+        <!--注入map-->
+        <property name="map">
+            <map>
+                <entry key="name" value="zyy"/>
+                <entry key="age" value="18"/>
+            </map>
+        </property>
+
+        <!--注入set-->
+        <property name="set">
+            <set>
+                <value>good</value>
+                <value>good</value>
+                <value>study</value>
+            </set>
+        </property>
+
+        <!--注入properties-->
+        <property name="properties">
+            <props>
+                <prop key="url">@zyy@qq.com</prop>
+                <prop key="user">root</prop>
+                <prop key="password">password</prop>
+            </props>
+        </property>
+        
+        <!--注入arr-->
+        <property name="ar">
+            <array>
+                <value>6</value>
+                <value>7</value>
+                <value>8</value>
+                <value>9</value>
+                <value>10</value>
+            </array>
+        </property>
+    </bean>
+</beans>

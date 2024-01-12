@@ -1,0 +1,13 @@
+
+m	java:S117+"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ß¨µ8âŸ÷ïº1
+W
+java:S1191"5Use classes from the Java API instead of Sun classes.(òÀ½şÿÿÿÿ8¿¿÷ïº1
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Âùª¥8ˆ¦ƒïº1
+p
+java:S2095/"NUse try-with-resources or close this "FileOutputStream" in a "finally" clause.(¸È„Ğûÿÿÿÿ8¿øïº1
+U
+java:S1854""9Remove this useless assignment to local variable "query".(ÊÊ·"8—¦ƒïº1
+F
+java:S1481""*Remove this unused "query" local variable.(ÊÊ·"8§¦ƒïº1
+L
+java:S2093."*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ8Ö÷ïº1

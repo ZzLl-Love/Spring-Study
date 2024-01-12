@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean id="person" class="cn.beaninstance.domian.Person"/>
+
+    <!--配置静态工厂方法实例化方式的bean-->
+    <bean id="goods" class="cn.beaninstance.domian.Goods"  factory-method="getInstance"/>
+
+    <!--配置实例化工厂方法-->
+    <!--配置工厂-->
+    <bean id="phoneFactory" class="cn.beaninstance.domian.PhoneFactory"/>
+    <!--配置phone-->
+    <bean id="phone"  factory-bean="phoneFactory" factory-method="getInstances"/>
+
+    <!--配置FactoryBean  没有直接配置Employee类，通过配置EmployeeFactory方式获取的-->
+    <bean id="employee" class="cn.beaninstance.domian.EmployeeFactory"/>
+</beans>

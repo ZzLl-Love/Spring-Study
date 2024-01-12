@@ -1,0 +1,10 @@
+
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ùß½¨ÿÿÿÿÿ8€Š¦¤º1
+o	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(æ¶‡øùÿÿÿÿ8”Š¦¤º1
+X	java:S125"<This block of commented-out lines of code should be removed.(øåêù8•Š¦¤º1
+L	java:S106!"+Replace this use of System.out by a logger.(¨×Õîüÿÿÿÿ8–Š¦¤º1
+]	java:S125 "<This block of commented-out lines of code should be removed.(¶ÛŠˆùÿÿÿÿ8–Š¦¤º1
+j	java:S100*"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(€›½È8–Š¦¤º1
+j	java:S1006"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‚þ—‹8—Š¦¤º1
+X
+java:S11177";Rename "context" which hides the field declared at line 18.(Ýß˜¬8—Š¦¤º1

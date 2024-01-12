@@ -1,0 +1,6 @@
+
+G	java:S106"+Replace this use of System.out by a logger.(’ËÂ¡8ÏÅé©º1
+L	java:S106 "+Replace this use of System.out by a logger.(ˆêÈ úÿÿÿÿ8ĞÅé©º1
+G	java:S106)"+Replace this use of System.out by a logger.(˜§‹¶8ĞÅé©º1
+w
+java:S1128"URemove this unused import 'com.sun.scenario.effect.impl.sw.sse.SSEBlend_SRC_OUTPeer'.(ùùÒÔùÿÿÿÿ8ÑÅé©º1

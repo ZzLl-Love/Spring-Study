@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+        <!--构造器方式 + name 配置bean,给name age address 属性赋值
+            name的值 是构造器中的形参名
+        -->
+    <!--    <bean id="student" class="cn.homework01.domain.Student">-->
+    <!--        <constructor-arg name="name" value = "zyy"></constructor-arg>-->
+    <!--        <constructor-arg name="age" value="18"></constructor-arg>-->
+    <!--        <constructor-arg name="address" value="湖北武汉"></constructor-arg>-->
+    <!--    </bean>-->
+
+    <!--&lt;!&ndash;构造器方式+ index 配置bean,给name age address 属性赋值&ndash;&gt;-->
+    <!--<bean id="student3" class="cn.homework01.domain.Student">-->
+    <!--       <constructor-arg index="0" value="zs"></constructor-arg>-->
+    <!--       <constructor-arg index="1" value="杭州"/>-->
+    <!--       <constructor-arg index="2" value="3"/>-->
+    <!--   </bean>-->
+
+    <!--&lt;!&ndash;Setter方式 配置bean,给name age address 属性赋值-->
+    <!--    name的值 是setXxx 方法 去掉set 将X 变成小写x  |want xxx-->
+    <!--&ndash;&gt;-->
+    <!--<bean id="student2" class="cn.homework01.domain.Student">-->
+    <!--        <property name="name1" value="xzl"/>-->
+    <!--        <property name="age" value="18"/>-->
+    <!--        <property name="address" value="湖北武汉"/>-->
+    <!--</bean>-->
+
+
+    <!--作业二-->
+    <!--配置StudentMapper 构造器方式-->
+    <bean id="studentMapper" class="cn.homework01.mapper.impl.StudentMapperImpl"></bean>
+    <!--配置StudentService-->
+    <bean id="studentService" class="cn.homework01.service.impl.StudentServiceImpl">
+        <constructor-arg name="studentMapper" ref="studentMapper"/>
+    </bean>
+
+
+    <!--配置StudentMapper Setter方式-->
+    <bean id="studentMapper1" class="cn.homework01.mapper.impl.StudentMapperImpl"></bean>
+    <!--配置StudentService-->
+    <bean id="studentService1" class="cn.homework01.service.impl.StudentServiceImpl">
+        <property name="studentMapper" ref="studentMapper1"/>
+    </bean>
+
+    <!--配置StudentMapper 自动装配-->
+    <bean id="studentMapper2" class="cn.homework01.mapper.impl.StudentMapperImpl"></bean>
+    <!--配置StudentService-->
+    <bean id="studentService2" class="cn.homework01.service.impl.StudentServiceImpl" autowire="byName"></bean>
+
+</beans>

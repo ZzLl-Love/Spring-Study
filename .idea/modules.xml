@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/SpringStudy.iml" filepath="$PROJECT_DIR$/SpringStudy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-Annotate/spring-Annotate.iml" filepath="$PROJECT_DIR$/spring-Annotate/spring-Annotate.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-Aop/spring-Aop.iml" filepath="$PROJECT_DIR$/spring-Aop/spring-Aop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-IOC/spring-IOC.iml" filepath="$PROJECT_DIR$/spring-IOC/spring-IOC.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-Mybatis/spring-Mybatis.iml" filepath="$PROJECT_DIR$/spring-Mybatis/spring-Mybatis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-Transaction/spring-Transaction.iml" filepath="$PROJECT_DIR$/spring-Transaction/spring-Transaction.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-jdbcTemplate/spring-jdbcTemplate.iml" filepath="$PROJECT_DIR$/spring-jdbcTemplate/spring-jdbcTemplate.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-junit/spring-junit.iml" filepath="$PROJECT_DIR$/spring-junit/spring-junit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-proxy/spring-proxy.iml" filepath="$PROJECT_DIR$/spring-proxy/spring-proxy.iml" />
+    </modules>
+  </component>
+</project>

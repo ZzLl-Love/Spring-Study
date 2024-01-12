@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/aop https://www.springframework.org/schema/aop/spring-aop.xsd">
+
+    <!--配置目标类 SmartDog-->
+    <bean id="smartDog" class="cn.zyy.xml.SmartDog"/>
+    <!--配置切面类-->
+    <bean id="smartAnimalAspect" class="cn.zyy.xml.SmartAnimalAspect"/>
+
+    <aop:config>
+        <!--配置统一切入点-->
+        <aop:pointcut id="myPointcut" expression="execution(public float cn.zyy.xml.SmartDog.getSum(float , float ))"/>
+        <!--将普通bean标识为切面类-->
+        <aop:aspect ref="smartAnimalAspect" order="1">
+            <!--配置各个通知对应的切入点-->
+            <aop:before method="f1" pointcut-ref="myPointcut"/>
+            <aop:after-returning method="f2" pointcut-ref="myPointcut"/>
+            <aop:after-throwing method="f3" pointcut-ref="myPointcut"/>
+            <aop:after method="f4" pointcut-ref="myPointcut"/>
+        </aop:aspect>
+    </aop:config>
+</beans>

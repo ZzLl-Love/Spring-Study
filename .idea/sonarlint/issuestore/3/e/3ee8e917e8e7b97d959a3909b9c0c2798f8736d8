@@ -1,0 +1,12 @@
+
+k
+java:S11927"NDefine a constant instead of duplicating this literal "studentMapper" 3 times.(¢ª§8ß˜†Ä»1
+G	java:S106#"+Replace this use of System.out by a logger.(ûÜøˆ8ğ˜†Ä»1
+G	java:S106-"+Replace this use of System.out by a logger.(Á„·Ï8ö˜†Ä»1
+o	java:S1006"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¾Ã¼…øÿÿÿÿ8÷˜†Ä»1
+L	java:S106>"+Replace this use of System.out by a logger.(‘ç³úÿÿÿÿ8ø˜†Ä»1
+G	java:S106@"+Replace this use of System.out by a logger.(è®¨8ù˜†Ä»1
+j	java:S100J"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÖÉ“‡8ù˜†Ä»1
+G	java:S106M"+Replace this use of System.out by a logger.(„íí8ú˜†Ä»1
+j	java:S100T"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ğ’ä8ú˜†Ä»1
+L	java:S106\"+Replace this use of System.out by a logger.(´‹¹öşÿÿÿÿ8Æ†Ä»1
